@@ -1,0 +1,145 @@
+.modal2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.modal2.active2 {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalContent2 {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+    height: 50%;
+    width: 45%;
+}
+
+.cancel {
+    padding: 0;
+    margin-left: auto;
+    display: block;
+    background: none;
+}
+
+.modalContent2 h1 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.modalContent2 p {
+    text-align: center;
+    font-size: 90%;
+}
+
+.values {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    margin-left: 7%;
+}
+
+.name p {
+    text-align: left;
+}
+
+.name input {
+    background-color: #EDEDED;
+    border-radius: 40px;
+    padding: 2%;
+    width: 80%;
+}
+
+.Number p {
+    text-align: left;
+}
+
+.Number input {
+    background-color: #EDEDED;
+    border-radius: 40px;
+    padding: 2%;
+    width: 80%;
+}
+
+.organ p {
+    text-align: left;
+}
+
+.organ input {
+    background-color: #EDEDED;
+    border-radius: 40px;
+    padding: 2%;
+    width: 80%;
+}
+
+.email p {
+    text-align: left;
+}
+
+.email input {
+    background-color: #EDEDED;
+    border-radius: 40px;
+    padding: 2%;
+    width: 80%;
+}
+
+.socNets p {
+    text-align: left;
+}
+
+.w, .e {
+    width: 40%;
+    display: inline;
+    align-items: center;
+}
+
+.w:hover {
+    border-color: red;
+    background-color: #00E676;
+}
+
+.e:hover {
+    border-color: red;
+    background-color: #D4D4D4;
+}
+
+.w {
+    background-color: #00E676;
+    width: 40%;
+}
+
+.w img {
+    width: 15%;
+    padding-left: 3%;
+}
+
+.e {
+    background-color: #D4D4D4;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.e img {
+    width: 16%;
+    padding-left: 3%;
+}
+
+.send  {
+   display: flex;
+   align-items: end;
+}
+
+.send button {
+    width: 85%;
+}

@@ -1,0 +1,252 @@
+.main_info {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    background-image: url('./main_back.jpg');
+    background-color: #FFC85E;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%;   
+}
+
+.main_info h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 250%;
+    color: white;
+    padding-right: 72%;
+}
+
+.main_info h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 180%;
+    color: white;
+}
+
+.main_info a {
+    background-color: #FFC85E;
+    margin-right: 89%;
+    color: white;
+    padding: 1.5%;
+    border-radius: 40px;
+    transition: 0.3s;
+    margin-top: 3%;
+}
+
+.main_info a:hover {
+    background-color: orangered;
+}
+
+.main_info img {
+    margin-top: 5%;
+}
+
+.salesList {
+    font-family: 'Inter', sans-serif;
+    font-size: 250%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.salesList nav {
+    color: #FFC85E;
+    display: inline;
+}
+
+.product_list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+.popular {
+    display: inline;
+    color: white;
+    background-color: #1FD85D;
+    font-family: 'Inter', sans-serif;
+    font-size: 90%;
+    padding: 2%;
+}
+
+.img {
+    display: block;
+    margin-top: 10%;
+}
+
+.bottle {
+    margin-top: 5%;
+}
+
+.mass {
+    display: inline; 
+    margin-left: 2%;
+}
+
+.sorti1 {
+    margin-right: 10%;
+    margin-top: 18%;
+    margin-bottom: 23%;
+}
+
+.sorti1 h3 {
+    color: black;
+}
+
+.img1 {
+    width: 70%;
+}
+
+.bottle {
+    display: block;
+}
+
+.aos1 {
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.aos1 h3 {
+    color: black;
+}
+
+.ariel1 {
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.ariel1 h3 {
+    color: black;
+}
+
+.bimax1 {
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.bimax1 h3 {
+    color: black;
+}
+
+button {
+    color: white;
+    background-color: #FFC85E;
+    border-radius: 40px;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
+    border-color: #FFC85E;
+}
+
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 130%;
+    margin-left: 10%;
+}
+
+.category {
+    margin-top: 5%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.category img {
+    width: 170%;
+}
+
+.category a {
+    margin-left: 45%;
+}
+
+.saleInfo {
+    background-image: url('./saleInfo.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.saleInfo label {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.label1 {
+    font-family: 'Inter', sans-serif;
+    padding-top: 10%;
+}
+
+.label2 {
+    padding-right: 55%;
+}
+
+.saleInfo h1 {
+    padding-left: 10%;
+    font-family: 'Inter', sans-serif;
+    font-size: 400%;
+    color: white;
+}
+
+
+.saleInfo a {
+    background-color: #FFC85E;
+    font-family: 'Inter', sans-serif;
+    font-size: 110%;
+    border-radius: 40px;
+    color: white;
+    padding: 1.5%;
+    transition: 0.3s;
+    margin-right: 70%;
+    padding-left: 3%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.saleInfo a:hover {
+    background-color: orangered;
+}
+
+.brandLabel {
+    color: grey;
+    font-size: 120%;
+}
+
+.brandList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: rgb(252, 250, 250);
+}
+
+.brandList img {
+    margin-right: 1.5%;
+}
+
+.orangeLine {
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map {
+    width: 86%;
+    margin-top: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

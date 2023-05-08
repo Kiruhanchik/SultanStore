@@ -1,0 +1,143 @@
+.Footer {
+    background-color: #3F4E65;
+    margin-top: 6%;
+    padding-top: 6%;  
+    display: flex;  
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-bottom: 6%; 
+    margin-bottom: 0;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.sultanWhite {
+    width: 45%;
+}
+
+.footer1 p {
+    font-family: 'Inter', sans-serif;
+    font-size: 85%;
+    color: white;
+    padding-right: 30%;
+}
+
+.footer1 form {
+    background-color: white;
+    margin-right: 30%;
+    padding: 1%;
+    border-radius: 40px;
+    margin-top: 3%;
+}
+
+.footer1 input {
+    border: none;
+    padding-left: 5%;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.footer2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 0;
+}
+
+.footer2 li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    margin-left: 0;
+}
+
+.footer3 {
+    margin-right: 5%;
+}
+
+.footer3 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 0;
+}
+
+.footer3 li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    margin-left: 0;
+}
+
+.footer4 {
+    margin-right: 5%;
+}
+
+.logo {
+    margin-right: 15%;
+}
+
+.footer5 {
+    margin-right: 5%;
+}
+
+.footer5 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 0;
+}
+
+.footer5 li{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    margin-left: 0;
+}
+
+li {
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.Footer a {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    transition: 0.3s;
+}
+
+.Footer a:hover {
+    color: chartreuse;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.Footer p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.priceList {
+    background-color: #e1a939;
+    padding: 4%;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+.priceList:hover {
+    background-color: orangered;
+}

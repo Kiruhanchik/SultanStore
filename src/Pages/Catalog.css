@@ -1,0 +1,452 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(226, 89, 43);
+    border-color: rgb(226, 89, 43);
+}
+
+
+.mainBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainBlock a {
+    transition: 0.3s;
+    color: grey;
+}
+
+.mainBlock a:hover {
+    color: rgb(22, 174, 14);
+}
+
+.route {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.route a {
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    transition: 0.3s;
+}
+
+.route a:hover {
+    color: blue;
+}
+
+.route a:first-child {
+    padding-right: 1%;
+    border-right: 1px solid grey;
+}
+
+.route a:last-child {
+    padding-left: 1%;
+}
+
+
+.mainLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.mainLabel div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.mainLabel select {
+    margin-left: 4%;
+    margin-right: 4%;
+    border-color: white;
+}
+
+.Params {
+    display: flex;
+    flex-direction: column;
+}
+
+.Params label {
+    margin-left: 5%;
+}
+
+.Params p {
+    margin-left: 5%;
+}
+
+.Params img {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.Proizvoditel {
+    margin-top: 3%;
+}
+
+.Proizvoditel label {
+    margin-left: 5%;
+}
+
+.Proizvoditel form {
+    margin-left: 5%; 
+    margin-top: 1.5%;
+    background-color: #EDEDED;   
+    border-radius: 40px;
+    width: 120%;
+    padding: 1%;
+}
+
+.Proizvoditel form input {
+    background-color: #EDEDED;
+    border-color: #EDEDED;
+}
+
+.Proizvoditel form button {
+    padding: 4%;
+    border-radius: 40px;
+}
+
+#checkbox1 {
+    margin-top: 2%;
+}
+
+.checkbox {
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+.checkbox label {
+    margin-left: 1%;
+    font-size: 110%;
+}
+
+.showAll {
+    color: black;
+    padding: 0.5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: white;
+    border-color: green;
+}
+
+.horizonLine {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.Brand label {
+    margin-left: 5%;
+}
+
+.Brand form {
+    margin-left: 5%; 
+    margin-top: 1.5%;
+    background-color: #EDEDED;   
+    border-radius: 40px;
+    width: 120%;
+    padding: 1%;
+}
+
+.Brand form input {
+    background-color: #EDEDED;
+    border-color: #EDEDED;
+}
+
+.Brand form button {
+    padding: 4%;
+    border-radius: 40px;
+}
+
+#checkbox2 {
+    margin-top: 2%;
+}
+
+.Brand .checkbox {
+    margin-left: 5%;
+}
+
+.Brand .checkbox label {
+    margin-left: 1%;
+    font-size: 110%;
+}
+
+#show {
+    display: block;
+}
+
+.button2 {
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 1%;
+}
+ 
+.button3 {
+    margin-left: 1%;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 50px;
+}
+
+.uhodZaTelom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    align-items: start;
+}
+
+.uhodZaTelom label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.uhodZaTelom a {
+    margin-left: 5%;
+    color: grey;
+    margin-top: 0.5%;
+}
+
+.uhodZaRukami {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-items: start;
+}
+
+.uhodZaRukami label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.uhodZaRukami a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.uhodZaNogami {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.uhodZaNogami label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.uhodZaNogami a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.uhodZaLicom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.uhodZaLicom label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.uhodZaLicom a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.uhodZaVolosami {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.uhodZaVolosami label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.uhodZaVolosami a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.SredstvaZagar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.SredstvaZagar label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.SredstvaZagar a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.Shave {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Shave label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.Shave a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.Present {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Present label {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.Present a {
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.Brands img {
+    width: 150%;
+}
+
+.rightPart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.rowProduct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.cost  {
+    display: inline;
+}
+
+.aos {
+    box-shadow: 7px 10px 20px rgb(239, 237, 237);
+    width: 20%;
+    vertical-align: top;
+    margin-right: 10%;
+}
+
+.aosLogo {
+    padding-left: 5%;
+    width: 90%;
+}
+
+#aosInfo {
+    font-size: 110%;
+}
+
+.aos button {
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.ariel {
+    box-shadow: 7px 10px 20px rgb(239, 237, 237);
+    width: 20%;
+    margin-right: 10%;
+}
+
+.arielLogo {
+    padding-left: 5%;
+    width: 90%;
+}
+
+#arielInfo {
+    font-size: 110%;
+}
+
+.ariel button {
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.bimax {
+    box-shadow: 7px 10px 20px rgb(239, 237, 237);
+    width: 20%;
+}
+
+.bimaxLogo {
+    padding-left: 5%;
+    width: 90%;
+}
+
+#bimaxInfo {
+    font-size: 110%;
+}
+
+.bimax button {
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.leftPart img {
+    width: 120%;
+}
+
+.leftPart {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.pagination {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.info {
+    margin-top: 10%;
+    padding-left: 15%;
+    padding-right: 3%;
+}
+
+#wonder {
+    width: 60%;
+}
+    
+
+
+
+
+
+
+

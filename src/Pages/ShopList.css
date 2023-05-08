@@ -1,0 +1,108 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.pages {
+    margin-top: 3%;
+}
+
+#main {
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    margin-left: 5%;
+    padding-right: 1%;
+    border-right: 1px solid grey;
+    transition: 0.3s;
+}
+
+#main:hover {
+    color: blue;
+}
+
+#shoplist {
+    padding-left: 1%;
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    transition: 0.3s;
+}
+
+#shoplist:hover {
+    color: blue;
+}
+
+.purchaseList {
+    display: flex;
+    flex-direction: column;
+}
+
+.purchaseList label {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 260%;
+} 
+
+.cartItemsList {
+    border-top: 1px solid grey;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    width: 90%;
+}
+
+.part-1 {
+    margin-left: 5%;
+    width: 33%;
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 1;
+
+}
+
+.part-2 button {
+    margin: 20%;
+}
+
+.buy_it {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    border-top: 1.5px solid rgb(203, 203, 203);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+
+.zakaz {
+    width: 16%;
+    font-size: 160%;
+    padding: 1%;
+    background-color: #FFC85E;
+    border-color: #FFC85E;
+    border-radius: 40px;
+    color: white;
+    transition: 0.3s;
+}
+
+.zakaz:hover {
+    color: white;
+    background-color: rgb(30, 144, 49);
+}
+
+.buy_it P {
+    font-size: 200%;
+    margin-right: 5%;
+}
+

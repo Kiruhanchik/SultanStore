@@ -1,0 +1,196 @@
+html {
+    overflow-x: hidden;
+}
+
+.part1 {
+    display: flex;
+    white-space: nowrap;
+    border-bottom: 1px solid #3F4E65;
+    align-items: center;
+    padding-left: 6%;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+.jps {
+    margin-right: 3%;
+}
+
+.mail {
+    align-items: center;
+    margin-top: 1%;
+    font-size: 85%;
+    white-space: nowrap;
+}
+
+.adress {
+    align-items: center;
+    font-size: 85%;
+    white-space: nowrap;
+}
+
+.mail_img {
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.adress p {
+    font-family: 'Inter', sans-serif;
+}
+
+.adress :first-child {
+    font-weight: 800;
+}
+
+.mail a {
+    font-family: 'Inter', sans-serif;
+}
+
+.mail :first-child {
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14%;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    padding-left: 14%;
+    font-size: 85%;
+    white-space: nowrap;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    transition: 0.2s;
+}
+
+a:hover {
+    color:rgb(45, 200, 24);
+}
+
+.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-top: 1.5%;
+}
+
+.catalog {
+    background-color:  #FFC85E;
+    border-radius: 40px;
+    padding: 1%;
+    padding-left: 2%;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    transition: 0.3s;
+    margin-left: 2%;
+}
+.catalog:hover {
+    color: rgb(255, 255, 255);
+    background-color:  #f1413b;
+}
+
+.search {
+    margin-left: 1%;
+    background-color: #EDEDED;
+    display: flex;
+    padding: 0.75%;
+    border-radius: 40px;
+}
+
+.search input {
+    background-color: #EDEDED;
+    border: none; 
+    outline: none;
+}
+
+.search button {
+    background-color:#FFC85E;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.calling {
+    font-family: 'Inter', sans-serif;
+    text-align: end; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    white-space: nowrap
+}
+
+.number {
+    margin-top: 3%;
+    font-weight: 900;
+    font-size: 85%;
+}
+
+.calling p {
+    font-size: 85%;
+}
+
+.buy_call {
+    font-family: 'Inter', sans-serif;
+    font-size: 85%;
+    text-decoration: underline;
+}
+
+
+.prise_list {
+    background-color:  #FFC85E;
+    border-radius: 40px;
+    padding: 1%;
+    padding-left: 2%;
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    transition: 0.3s;
+    margin-left: 3%;
+}
+
+.prise_list:hover {
+    color: rgb(255, 255, 255);
+    background-color:  #f1413b;
+}
+
+.container {
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cost_container {
+    margin-left: 10%;
+    font-family: 'Inter', sans-serif;
+    font-size: 80%;
+}
+
+.cost_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cost_1 {
+    font-size: 150%;
+}
+
+
+
+
+

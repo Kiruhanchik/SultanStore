@@ -1,0 +1,43 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 5%;
+    align-items: center;
+    border-top: 1.5px solid rgb(203, 203, 203);
+    padding-top: 5%;
+    margin-right: 5%;
+}
+
+.item-body {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-title {
+    color: black;
+    padding-right: 30%;
+}
+
+.item-text {
+    padding-right: 30%;
+}
+
+.item-cost {
+    margin-left: 24%;
+}
+
+.item-body-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 140%;
+    margin-right: 25%;
+}
+
+.item-body-2 button {
+    margin: 15%;
+}
+
+
